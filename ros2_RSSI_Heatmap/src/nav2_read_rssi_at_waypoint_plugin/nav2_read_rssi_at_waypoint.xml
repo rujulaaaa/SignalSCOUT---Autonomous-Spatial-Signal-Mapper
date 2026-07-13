@@ -1,0 +1,6 @@
+<library path="nav2_read_rssi_at_waypoint">
+    <class type="nav2_read_rssi_at_waypoint::ReadRssiAtWaypoint"
+           base_class_type="nav2_core::WaypointTaskExecutor">
+      <description>Reads simulated RSSI at each waypoint and publishes to /rssi_data</description>
+    </class>
+</library>
